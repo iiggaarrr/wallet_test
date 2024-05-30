@@ -1,5 +1,5 @@
 # wallet_test
-
+```
 with debt as (
     select
         deal,
@@ -16,3 +16,4 @@ select
     overdue_start_dt,
     datediff(current_date, overdue_start_dt) as overdue_days
 from debt
+```
